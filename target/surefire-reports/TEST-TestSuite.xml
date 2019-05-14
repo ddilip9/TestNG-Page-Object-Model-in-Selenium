@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="32.799" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\LENOVO-PC\Workspace2\VGProductCompare_Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\LENOVO-PC\Workspace2\VGProductCompare_Automation"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\LENOVO-PC\Workspace2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1780973533343825801.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Selenium\geckodriver\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\LENOVO-PC\AppData\Local\Microsoft\WindowsApps;;C:\Users\LENOVO-PC\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\LENOVO-PC"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="LENOVO-PC"/>
+    <property name="java.class.path" value="/C:/Users/LENOVO-PC/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\LENOVO-PC\Workspace2\VGProductCompare_Automation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyFundComparisonRetailProducts" classname="com.vangaurd.tests.FundCompareTests" time="32.799">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at org.testng.Assert.assertEquals(Assert.java:314)
+	at com.basic.uiframework.HybridDriver.infoToReportWithBoolean(HybridDriver.java:360)
+	at com.vangaurd.tests.FundCompareTests.verifyFundComparisonRetailProducts(FundCompareTests.java:159)
+</failure>
+    <system-out><![CDATA[C:\Users\LENOVO-PC\Workspace2\VGProductCompare_Automation
+2019-05-15 03:49:27 INFO  HybridDriver:723 - verifyFundComparisonRetailProducts: Completed
+2019-05-15 03:49:27 INFO  HybridDriver:674 - Launching Chrome Browser...,
+2019-05-15 03:49:37 INFO  HybridDriver:288 - URL Launch Successfull: https://www.vanguardinvestments.com.au/au/portal/homepage.jsp
+2019-05-15 03:49:38 INFO  HybridDriver:210 - Wait for the Page ( Low-cost managed funds and ETFs) to Load  -  Successfull
+2019-05-15 03:49:42 INFO  HybridDriver:256 - Element Get Text : Individual & SMSF investors : : Successful
+2019-05-15 03:49:43 INFO  HybridDriver:210 - Wait for the Page ( Low-cost managed funds | ETFs) to Load  -  Successfull
+2019-05-15 03:49:44 INFO  HybridDriver:256 - Element Get Text : Fund compare : : Successful
+2019-05-15 03:49:45 INFO  HybridDriver:210 - Wait for the Page ( Low-cost managed funds | ETFs) to Load  -  Successfull
+2019-05-15 03:49:47 INFO  HybridDriver:304 - Switch to Next Tab - - Success 
+2019-05-15 03:49:48 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:48 INFO  HybridDriver:196 - Click on Element  -  Successfull
+2019-05-15 03:49:49 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:51 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:52 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:52 INFO  HybridDriver:164 - Click on Element  -  Successfull
+2019-05-15 03:49:53 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:54 INFO  HybridDriver:164 - Click on Element  -  Successfull
+2019-05-15 03:49:55 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:55 INFO  HybridDriver:164 - Click on Element  -  Successfull
+2019-05-15 03:49:56 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:57 INFO  HybridDriver:164 - Click on Element  -  Successfull
+2019-05-15 03:49:58 INFO  HybridDriver:210 - Wait for the Page ( ) to Load  -  Successfull
+2019-05-15 03:49:58 INFO  HybridDriver:196 - Click on Element  -  Successfull
+-------------------------------195
+2019-05-15 03:50:04 INFO  HybridDriver:356 - Message - > Entity comparison result is :true
+ : Actual Entities ->[Product name, Identifier, ISIN, Morningstar category, Benchmark, Management costs, Minimum investment, Fund size, Unit class size, Fund/ class size date, Total fund holdings, Total fund holdings date, Inception date, 12 month yield, 12 month yield date, Portfolio turnover rate, Portfolio turnover ratio date]: Comparison Entities -> Identifier
+2019-05-15 03:50:04 INFO  HybridDriver:356 - Message - > productResult1  is : true
+ : Actual Product 1 ->[Vanguard High Yield Australian Shares Fund, VAN0017AU, AU60VAN00170, Equity Australia Large Blend, FTSE Australia High Dividend Yld TR AUD, 0.90%, $5,000, $1.1 billion, $132.3 million, 31-March-2019, 58, 31-March-2019, 15-July-2004, 7.65%, 30-April-2019, 48.96%, 30-June-2017]: Comparison Product 1  -> VAN0017AU
+2019-05-15 03:50:04 INFO  HybridDriver:359 - Failed in Info Assertion - - - > productResult2  is : false
+ : Actual Product 2->[Vanguard Index Australian Property Securities Fund, VAN0012AU, AU60VAN00121, Equity Australia Real Estate, S&P/ASX 300 A-REIT TR, 0.90%, $5,000, $4.2 billion, $119.2 million, 31-March-2019, 31, 31-March-2019, 26-October-1998, 2.06%, 30-April-2019, 5.47%, 30-June-2017]: Comparison Product 2 -> xxxxxxxxxxx
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No such property [maxBackupIndex] in org.apache.log4j.FileAppender.
+log4j:WARN No such property [maxFileSize] in org.apache.log4j.FileAppender.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 2494
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 15, 2019 3:49:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifyFundComparisonRetailProducts" classname="com.vangaurd.tests.FundCompareTests" time="26.89"/>
+  <testcase name="verifyFundComparisonRetailProducts" classname="com.vangaurd.tests.FundCompareTests" time="26.633"/>
+</testsuite>

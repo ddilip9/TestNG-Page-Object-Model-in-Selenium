@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102263" started-at="2019-05-14T17:49:26Z" finished-at="2019-05-14T17:51:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="102263" started-at="2019-05-14T17:49:26Z" finished-at="2019-05-14T17:51:08Z">
+      <class name="com.vangaurd.tests.FundCompareTests">
+        <test-method status="PASS" signature="initializeTestBaseSetup()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="initializeTestBaseSetup" is-config="true" duration-ms="11" started-at="2019-05-15T03:49:26Z" finished-at="2019-05-15T03:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="beforeMethod" is-config="true" duration-ms="87" started-at="2019-05-15T03:49:27Z" finished-at="2019-05-15T03:49:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vangaurd.tests.FundCompareTests.verifyFundComparisonRetailProducts(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="beforeMethod" is-config="true" duration-ms="4501" started-at="2019-05-15T03:49:27Z" finished-at="2019-05-15T03:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifyFundComparisonRetailProducts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="verifyFundComparisonRetailProducts" duration-ms="32733" started-at="2019-05-15T03:49:31Z" data-provider="default" finished-at="2019-05-15T03:50:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.vanguardinvestments.com.au/au/portal/homepage.jsp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Individual & SMSF investors]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fund compare]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vanguard High Yield Australian Shares Fund]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vanguard Index Australian Property Securities Fund]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Vanguard Index Australian Shares Fund]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Vanguard Index Diversified Bond Fund]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Identifier]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[VAN0017AU]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[xxxxxxxxxxx]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[VAN0010AU]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VAN0101AU]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at org.testng.Assert.assertEquals(Assert.java:314)
+	at com.basic.uiframework.HybridDriver.infoToReportWithBoolean(HybridDriver.java:360)
+	at com.vangaurd.tests.FundCompareTests.verifyFundComparisonRetailProducts(FundCompareTests.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundComparisonRetailProducts -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="afterMethod" is-config="true" duration-ms="908" started-at="2019-05-15T03:50:04Z" finished-at="2019-05-15T03:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="afterMethod" is-config="true" duration-ms="333" started-at="2019-05-15T03:50:05Z" finished-at="2019-05-15T03:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFundComparisonRetailProducts status=FAILURE method=FundCompareTests.verifyFundComparisonRetailProducts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-15T03:50:05Z" finished-at="2019-05-15T03:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vangaurd.tests.FundCompareTests.verifyFundComparisonRetailProducts(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="beforeMethod" is-config="true" duration-ms="3484" started-at="2019-05-15T03:50:05Z" finished-at="2019-05-15T03:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyFundComparisonRetailProducts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="verifyFundComparisonRetailProducts" duration-ms="26890" started-at="2019-05-15T03:50:09Z" data-provider="default" finished-at="2019-05-15T03:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.vanguardinvestments.com.au/au/portal/homepage.jsp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Individual & SMSF investors]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fund compare]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vanguard High Yield Australian Shares Fund]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vanguard Index Australian Property Securities Fund]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Vanguard Index Australian Shares Fund]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Vanguard Index Diversified Bond Fund]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Identifier]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[VAN0017AU]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[VAN0012AU]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[VAN0010AU]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VAN0101AU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundComparisonRetailProducts -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="afterMethod" is-config="true" duration-ms="899" started-at="2019-05-15T03:50:36Z" finished-at="2019-05-15T03:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="afterMethod" is-config="true" duration-ms="105" started-at="2019-05-15T03:50:36Z" finished-at="2019-05-15T03:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFundComparisonRetailProducts status=SUCCESS method=FundCompareTests.verifyFundComparisonRetailProducts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T03:50:37Z" finished-at="2019-05-15T03:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vangaurd.tests.FundCompareTests.verifyFundComparisonRetailProducts(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="beforeMethod" is-config="true" duration-ms="3875" started-at="2019-05-15T03:50:37Z" finished-at="2019-05-15T03:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyFundComparisonRetailProducts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="verifyFundComparisonRetailProducts" duration-ms="26632" started-at="2019-05-15T03:50:40Z" data-provider="default" finished-at="2019-05-15T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.vanguardinvestments.com.au/au/portal/homepage.jsp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Individual & SMSF investors]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fund compare]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vanguard High Yield Australian Shares Fund]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vanguard Index Australian Property Securities Fund]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Vanguard Index Australian Shares Fund]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Vanguard Index Diversified Bond Fund]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ISIN]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[AU60VAN00170]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[AU60VAN00121]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[AU60VAN00105]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[AU60VAN01012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundComparisonRetailProducts -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="afterMethod" is-config="true" duration-ms="929" started-at="2019-05-15T03:51:07Z" finished-at="2019-05-15T03:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="afterMethod" is-config="true" duration-ms="68" started-at="2019-05-15T03:51:08Z" finished-at="2019-05-15T03:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFundComparisonRetailProducts status=SUCCESS method=FundCompareTests.verifyFundComparisonRetailProducts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vangaurd.tests.FundCompareTests@2669b199]" name="tearDown" is-config="true" duration-ms="62" started-at="2019-05-15T03:51:08Z" finished-at="2019-05-15T03:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vangaurd.tests.FundCompareTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
