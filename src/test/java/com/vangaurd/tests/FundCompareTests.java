@@ -31,8 +31,6 @@ public class FundCompareTests extends HybridDriver {
 		return arrayObject;
 	}
 
-	// WebDriver web-Driver;
-
 	@BeforeMethod
 	public void beforeMethod() {
 		try {
@@ -101,9 +99,7 @@ public class FundCompareTests extends HybridDriver {
 		clickElementWithXpath(fund_xpath4);
 
 		waitForPageLoad();
-	/*	WebElement compareFundBtn = driver.findElement(By.id("compareFundBtn"));
-		js.executeScript("arguments[0].click();", compareFundBtn);
-*/
+
 		clickWithJavaScript(CompareProductsPage.compareFundsButton);
 		
 		/**
